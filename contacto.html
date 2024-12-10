@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="" class="logo">Ruta Dorada</a>
+        <ul class="navmenu">
+            <li class="navmenu-item"><a href="./index.html" class="navmenu-link">Inicio</a></li>
+            <li class="navmenu-item"><a href="./nosotros.html" class="navmenu-link">Nosotros</a></li>
+            <li class="navmenu-item"><a href="./reserva.html" class="navmenu-link">Reserva</a></li>
+            <li class="navmenu-item"><a href="./contacto.html" class="navmenu-link">Contacto</a></li>
+            <li class="navmenu-item"><a href="./servicios.html" class="navmenu-link">Servicios</a></li>
+        </ul>
+    </header>
+
+    <main class="main-content">
+        <section class="contact-section">
+            <h2 class="section-title">Contáctanos</h2>
+
+            <!-- Formulario de Contacto -->
+            <div class="contact-form">
+                <h3>Envíanos un mensaje</h3>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto:</label>
+                        <input type="text" id="subject" name="subject" placeholder="Asunto del mensaje" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" placeholder="Escribe tu mensaje..." rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+
+            <!-- Información de Contacto -->
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <p><strong>Dirección:</strong> Calle Principal #123, Ciudad Dorada</p>
+                <p><strong>Teléfono:</strong> +123 456 7890</p>
+                <p><strong>Correo:</strong> contacto@rutadorada.com</p>
+                <p><strong>Horario:</strong> Lunes a Viernes, 9:00 AM - 5:00 PM</p>
+            </div>
+
+            <!-- Mapa -->
+            <div class="map-container">
+                <h3>Encuéntranos aquí</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.866319765692!2d-122.41941548438943!3d37.77492927975821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808d9eb2e73b%3A0xdb708b3b0c540b9a!2sSan%20Francisco%2C%20CA%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1662939315843!5m2!1ses-419!2sco"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
