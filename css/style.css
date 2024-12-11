@@ -10,7 +10,7 @@
 
 /* Body Styles */
 body {
-    background-color: #90cbf9;
+    background-color: #FAF3E0;
     color: black;
 }
 
@@ -25,11 +25,11 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 2rem 8rem;
-    background-color: #90cbf9;
+    background-color: #3B2F2F;
 }
 
 .logo {
-    color: black;
+    color: white;
     font-size: 1.2rem;
     font-weight: 600;
 }
@@ -44,10 +44,14 @@ body {
 
 .navmenu-link {
     display: inline-block;
-    color: black;
+    color: white;
     font-weight: 500;
     font-weight: bold;
     transition: all 0.6s;
+}
+
+.navmenu-link:hover {
+    color: #F5F5DC;
 }
 
 .carousel-container {
@@ -90,6 +94,7 @@ body {
     padding: 2rem 5rem 0 18rem;
     gap: 1rem;
     background-image: url('');
+    color: #3B2F2F;
 }
 
 .home-img {
@@ -113,6 +118,7 @@ body {
 
 .home-description {
     margin-bottom: 2rem;
+    color: #4F4F4F;
 }
 
 .home-buttons .btn {
@@ -121,7 +127,6 @@ body {
     padding: 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
-    color: #f7f7f2;
     border: 1px solid #1e1e24;
     font-weight: 500;
     font-size: 12px;
@@ -175,7 +180,7 @@ body {
 }
 
 .card {
-    background-color: #bdbdb3;
+    background-color: #FFF8E1;
     width: 300px;
     padding: 20px;
     border-radius: 20px;
@@ -183,14 +188,36 @@ body {
 
 .card img {
     display: flex;
-    width: 100px;
+    width: 100%;
+    height: 190px;
     margin: 0 auto;
     text-align: center;
+    object-fit: contain;
 }
 
 .card h3, p {
     text-align: center;
     padding: 10px;
+    color: #3B2F2F;
+}
+
+.btn-compra {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #D4A017; /* Dorado */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.btn-compra:hover {
+    background-color: #B8860B; /* Dorado más oscuro */
 }
 
 /* ESTILOS CONTACTO */
